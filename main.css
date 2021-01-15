@@ -5,8 +5,32 @@ body {
 .product-container {
   display: flex;
   justify-content: space-around;
+  margin: 20px;
+}
+
+.product-card {
+  box-shadow: 10px 5px 5px red;
+  width: 33.33%;
+  margin: 20px;
+  padding: 5px;
 }
 
 .product-card img {
   height: 150px;
+  margin: auto;
+  display: block;
+}
+
+.product-title  {
+  border: 1px solid lightblue;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.availability {
+  background-color: darkgray;
+  color: yellow;
 }
