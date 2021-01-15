@@ -19,7 +19,7 @@ body {
 }
 
 .product-card img {
-  height: 150px;
+  height: 250px;
   margin: auto;
   display: block;
 }
@@ -36,4 +36,22 @@ body {
 .availability {
   background-color: darkgray;
   color: yellow;
+}
+
+.soldout {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.available {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.not-available {
+  position: absolute;
+  top: 5px;
+  left: 150px;
 }
