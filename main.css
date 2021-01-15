@@ -1,5 +1,6 @@
 body {
-  background-color: pink;
+  background-color: #C8E6C9;
+  color: #212121;
 }
 
 .product-container {
@@ -9,10 +10,11 @@ body {
 }
 
 .product-card {
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px #BDBDBD;
   width: 33.33%;
   margin: 20px;
   padding: 5px;
+  background-color: #448AFF;
 }
 
 .product-card img {
