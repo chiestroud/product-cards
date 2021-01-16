@@ -6,7 +6,7 @@ body {
 
 .product-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 20px;
 }
 
@@ -22,6 +22,7 @@ body {
   height: 250px;
   margin: auto;
   display: block;
+  max-width: 100%;
 }
 
 .product-title  {
@@ -54,4 +55,8 @@ body {
   position: absolute;
   top: 5px;
   left: 150px;
+}
+
+main ul {
+  list-style: none;
 }
